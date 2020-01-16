@@ -8,7 +8,7 @@ namespace resolução_prova
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
 			// TODO Auto-generated method stub
 			Pessoa p1 = new Pessoa("João", 15);
 			Pessoa p2 = new Pessoa("Leandro", 21);
@@ -38,7 +38,7 @@ namespace resolução_prova
 				}
 
 			}
-			Console.WriteLine("A pessoa mais velha é " + nomeMaior + " " + maior);
+			Console.WriteLine("\nA pessoa mais velha é " + nomeMaior + " " + maior);
 			int menor = maior;
 			//imprime o nome do menor
 			foreach (Pessoa pessoa in pessoas)
@@ -50,10 +50,10 @@ namespace resolução_prova
 				}
 				;
 			}
-			Console.WriteLine(" A pessoa mais nova é " + nomeMenor + " " + menor);
+			Console.WriteLine(" \nA pessoa mais nova é " + nomeMenor + " " + menor);
 
 			// removendo o mais novo
-			Console.WriteLine("impressão antes de removido");
+			Console.WriteLine("\nImpressão antes de removido");
 			for (int i = 0; i < pessoas.Count; i++)
 			{
 				Console.WriteLine(pessoas[i].Nome + "");
@@ -69,7 +69,7 @@ namespace resolução_prova
 				}
 
 			}
-			Console.WriteLine("impressão depois de removido");
+			Console.WriteLine("\nImpressão depois de removido menores de 18");
 			for (int i = 0; i < pessoas.Count; i++)
 			{
 				Console.WriteLine(pessoas[i].Nome + "");
@@ -80,7 +80,7 @@ namespace resolução_prova
 			{
 				if (pessoa.Nome == "Jessica")
 				{
-					Console.WriteLine(pessoa.Nome + " " + pessoa.Idade);
+					Console.WriteLine("\nNome:"+pessoa.Nome + "\nIdade: " + pessoa.Idade);
 				}
 
 			}
